@@ -1,6 +1,6 @@
 {% set name = "funcargparse" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "80fe7d5c83ef602a25f085ec4d597ea9334eba9420ec0f14865b6fafb040581a" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "a99c3d42faef39393e21cfe0916a9294d7d1d7514e22110182ce4e42685b376d" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python
-    - docrep
+    - docrep >=0.2.2
     - six
 
 test:
