@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python
-    - docrep>=0.2.2
+    - docrep >=0.2.2
     - six
 
 test:
