@@ -1,6 +1,6 @@
 {% set name = "funcargparse" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "a99c3d42faef39393e21cfe0916a9294d7d1d7514e22110182ce4e42685b376d" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "2e854ee568938f287477b2e27d78708dcb74417869840b1bff36992fd5ab0a4e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
