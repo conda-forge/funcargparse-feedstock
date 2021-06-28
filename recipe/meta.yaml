@@ -1,6 +1,6 @@
 {% set name = "funcargparse" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "5d249c3428f629e71c0ef4e1ae78f44ab9473e0201e5d79e16c28461059b6d34" %}
+{% set version = "0.2.4" %}
+{% set sha256 = "d9183a7ac62c8ab766faa24ed380a1d38b368e8563863899d64cc54a6463e0cd" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
+    - python >=3.6
     - docrep >=0.3
     - six
 
@@ -32,8 +32,7 @@ test:
 
 about:
   home: https://github.com/Chilipp/funcargparse
-  license: GPL-2.0-only
-  license_family: GPL2
+  license: Apache-2.0
   license_file: LICENSE
   summary: Create an argparse.ArgumentParser from function docstrings
 
