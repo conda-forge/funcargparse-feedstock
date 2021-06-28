@@ -1,6 +1,6 @@
 {% set name = "funcargparse" %}
-{% set version = "0.2.4" %}
-{% set sha256 = "d9183a7ac62c8ab766faa24ed380a1d38b368e8563863899d64cc54a6463e0cd" %}
+{% set version = "0.2.5" %}
+{% set sha256 = "f33d0d2ad4b865e7726c4de3bf8c3e4d36313acf6cf0cff945cead396ec80fea" %}
 
 package:
   name: {{ name|lower }}
